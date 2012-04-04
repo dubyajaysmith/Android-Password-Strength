@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView  
+		android:id="@+id/weight"
+		android:text="Password : "
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		
+	/>
+	<EditText
+		android:layout_below="@+id/weight"
+		android:id="@+id/wp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	/>
+	
+	<Button
+		android:id="@+id/high"
+		android:text="Calculate"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	    android:layout_below="@+id/wp"
+		android:layout_alignParentRight="true"
+		android:layout_marginLeft="10px"
+	/>
+	
+</RelativeLayout>
